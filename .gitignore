@@ -1,0 +1,42 @@
+# Xcode
+#
+DerivedData/
+build/
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Xcode scheme management
+*.xcscheme
+*.xcschememanagement.plist
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Accio
+.accio/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Code signing
+*.pem
+*.cer
+*.mobileprovision
+*.p12
+
+# macOS metadata files
+.DS_Store
